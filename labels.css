@@ -9,17 +9,13 @@
     font-weight:300;
   }
   .wrapper {
-    width:100%;
     page-break-after: always;
     page-break-inside: avoid;
-  }
-  .label {
-    width:50%;
-    float: right;
   }
 
   @page {
     width:4 in;
     height: 2 in;
+    margin-left: 2 in;
   }
 }

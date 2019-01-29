@@ -1,4 +1,9 @@
 @media print
+  @page {
+    width:4 in;
+    height: 2 in;
+    margin-left: 2 in;
+  }
   h1,h2,h3,h4,h5,h6,p,a,li {
     font-family: dia;
   }
@@ -13,9 +18,4 @@
     page-break-inside: avoid;
   }
 
-  @page {
-    width:4 in;
-    height: 2 in;
-    margin-left: 2 in;
-  }
 }

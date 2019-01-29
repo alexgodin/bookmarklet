@@ -1,3 +1,6 @@
 var labels = $('.all_labels').html();
 $('body').html(labels);
-$('head').append('<link rel="stylesheet" href="http://alex.nyc/bookmarklet/labels.css" type="text/css">');
+$.get('https://raw.githubusercontent.com/alexgodin/bookmarklet/master/labels.css',
+  function(css){
+   $('head').append('<style type="text/css">'+css+'</style>') 
+  })

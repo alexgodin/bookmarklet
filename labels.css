@@ -1,5 +1,5 @@
-@media print {
-  body {
+/*@media print {
+*/  body {
     color: red;
   }
   h1,h2,h3,h4,h5,h6,p,a,li {
@@ -11,4 +11,17 @@
   h3 {
     font-weight:300;
   }
-}
+  .wrapper {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  .label {
+    width:50%;
+    float: right;
+  }
+
+  @page {
+    width:4 in;
+    height: 2 in;
+  }
+/*}*/

@@ -1,0 +1,35 @@
+  body{overflow: visible;}
+  h1{ padding-left:0px;}
+  h3 {margin-bottom:0px; margin-top:0px;}
+  ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-type: none;
+  }
+  h1,h2,h3,h4,h5,h6,l1,a,p {
+      font-family: 'Dia';
+      font-weight: 400;
+  }
+  span {
+    font-weight: 900;
+  }
+  li {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .wrapper {
+    position: relative;
+    padding: 15px;
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  .label {
+    float:right;
+    width:50%
+  }
